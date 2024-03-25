@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		F908C2482BB1EAE6003BCAC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2472BB1EAE6003BCAC6 /* AppDelegate.swift */; };
 		F908C24A2BB1EAE6003BCAC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2492BB1EAE6003BCAC6 /* SceneDelegate.swift */; };
-		F908C24C2BB1EAE6003BCAC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C24B2BB1EAE6003BCAC6 /* ViewController.swift */; };
+		F908C24C2BB1EAE6003BCAC6 /* CatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C24B2BB1EAE6003BCAC6 /* CatsViewController.swift */; };
 		F908C24F2BB1EAE6003BCAC6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F908C24E2BB1EAE6003BCAC6 /* Base */; };
 		F908C2512BB1EAE7003BCAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F908C2502BB1EAE7003BCAC6 /* Assets.xcassets */; };
 		F908C2542BB1EAE7003BCAC6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F908C2532BB1EAE7003BCAC6 /* Base */; };
+		F908C25F2BB1EC05003BCAC6 /* CatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C25E2BB1EC05003BCAC6 /* CatsView.swift */; };
+		F908C2612BB1EC15003BCAC6 /* FavoritecatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2602BB1EC15003BCAC6 /* FavoritecatsView.swift */; };
+		F908C2632BB1EC5C003BCAC6 /* Cats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2622BB1EC5C003BCAC6 /* Cats.swift */; };
+		F908C2652BB1EC6A003BCAC6 /* FavoriteCats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2642BB1EC6A003BCAC6 /* FavoriteCats.swift */; };
+		F908C26A2BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2692BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift */; };
+		F908C26C2BB1ED20003BCAC6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C26B2BB1ED20003BCAC6 /* Network.swift */; };
+		F908C26E2BB1ED8D003BCAC6 /* ImageDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C26D2BB1ED8D003BCAC6 /* ImageDTO.swift */; };
+		F908C2702BB1EEE4003BCAC6 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C26F2BB1EEE4003BCAC6 /* Worker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F908C2442BB1EAE6003BCAC6 /* FavoriteCats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteCats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F908C2472BB1EAE6003BCAC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F908C2492BB1EAE6003BCAC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F908C24B2BB1EAE6003BCAC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F908C24B2BB1EAE6003BCAC6 /* CatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewController.swift; sourceTree = "<group>"; };
 		F908C24E2BB1EAE6003BCAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F908C2502BB1EAE7003BCAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F908C2532BB1EAE7003BCAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F908C2552BB1EAE7003BCAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F908C25E2BB1EC05003BCAC6 /* CatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsView.swift; sourceTree = "<group>"; };
+		F908C2602BB1EC15003BCAC6 /* FavoritecatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritecatsView.swift; sourceTree = "<group>"; };
+		F908C2622BB1EC5C003BCAC6 /* Cats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats.swift; sourceTree = "<group>"; };
+		F908C2642BB1EC6A003BCAC6 /* FavoriteCats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCats.swift; sourceTree = "<group>"; };
+		F908C2692BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCatsViewController.swift; sourceTree = "<group>"; };
+		F908C26B2BB1ED20003BCAC6 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F908C26D2BB1ED8D003BCAC6 /* ImageDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDTO.swift; sourceTree = "<group>"; };
+		F908C26F2BB1EEE4003BCAC6 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		F908C2462BB1EAE6003BCAC6 /* FavoriteCats */ = {
 			isa = PBXGroup;
 			children = (
+				F908C25C2BB1EB6A003BCAC6 /* Models */,
+				F908C25D2BB1EB70003BCAC6 /* View */,
+				F908C2662BB1EC7E003BCAC6 /* Controllers */,
+				F908C25B2BB1EB64003BCAC6 /* Network */,
 				F908C2472BB1EAE6003BCAC6 /* AppDelegate.swift */,
 				F908C2492BB1EAE6003BCAC6 /* SceneDelegate.swift */,
-				F908C24B2BB1EAE6003BCAC6 /* ViewController.swift */,
 				F908C24D2BB1EAE6003BCAC6 /* Main.storyboard */,
 				F908C2502BB1EAE7003BCAC6 /* Assets.xcassets */,
 				F908C2522BB1EAE7003BCAC6 /* LaunchScreen.storyboard */,
 				F908C2552BB1EAE7003BCAC6 /* Info.plist */,
 			);
 			path = FavoriteCats;
+			sourceTree = "<group>";
+		};
+		F908C25B2BB1EB64003BCAC6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F908C26B2BB1ED20003BCAC6 /* Network.swift */,
+				F908C26D2BB1ED8D003BCAC6 /* ImageDTO.swift */,
+				F908C26F2BB1EEE4003BCAC6 /* Worker.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F908C25C2BB1EB6A003BCAC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F908C2622BB1EC5C003BCAC6 /* Cats.swift */,
+				F908C2642BB1EC6A003BCAC6 /* FavoriteCats.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F908C25D2BB1EB70003BCAC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F908C25E2BB1EC05003BCAC6 /* CatsView.swift */,
+				F908C2602BB1EC15003BCAC6 /* FavoritecatsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F908C2662BB1EC7E003BCAC6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F908C24B2BB1EAE6003BCAC6 /* CatsViewController.swift */,
+				F908C2692BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F908C24C2BB1EAE6003BCAC6 /* ViewController.swift in Sources */,
+				F908C26C2BB1ED20003BCAC6 /* Network.swift in Sources */,
+				F908C26E2BB1ED8D003BCAC6 /* ImageDTO.swift in Sources */,
+				F908C25F2BB1EC05003BCAC6 /* CatsView.swift in Sources */,
+				F908C2612BB1EC15003BCAC6 /* FavoritecatsView.swift in Sources */,
+				F908C24C2BB1EAE6003BCAC6 /* CatsViewController.swift in Sources */,
+				F908C26A2BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift in Sources */,
 				F908C2482BB1EAE6003BCAC6 /* AppDelegate.swift in Sources */,
+				F908C2652BB1EC6A003BCAC6 /* FavoriteCats.swift in Sources */,
+				F908C2632BB1EC5C003BCAC6 /* Cats.swift in Sources */,
+				F908C2702BB1EEE4003BCAC6 /* Worker.swift in Sources */,
 				F908C24A2BB1EAE6003BCAC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
