@@ -3,5 +3,9 @@
 import UIKit
 
 class CatsView: UIView {
- //здесь должен быть код для отображения интерфейса, но я не хочу мудрить
+    
+    let tableview: UITableView = {
+            let tv = UITableView() //тут мы устанавливаем инициализацию только тогда, когда будет вызов
+            return tv
+        }()
 }
