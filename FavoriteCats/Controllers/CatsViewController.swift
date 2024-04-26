@@ -2,19 +2,14 @@
 
 import UIKit
 
-class ViewController: UIViewController{
+class CatsViewController: UIViewController{
 
     let catsView = CatsView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setupTableView()
-        
+        view.addSubview(catsView)
+        catsView.frame = view.bounds
     }
-    
-    func setupTableView() {
-            view.addSubview(catsView)
-        }
-    
 }
