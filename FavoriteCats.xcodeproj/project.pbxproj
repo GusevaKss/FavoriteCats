@@ -11,8 +11,6 @@
 		F908C24A2BB1EAE6003BCAC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2492BB1EAE6003BCAC6 /* SceneDelegate.swift */; };
 		F908C24C2BB1EAE6003BCAC6 /* CatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C24B2BB1EAE6003BCAC6 /* CatsViewController.swift */; };
 		F908C2512BB1EAE7003BCAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F908C2502BB1EAE7003BCAC6 /* Assets.xcassets */; };
-		F908C25F2BB1EC05003BCAC6 /* CatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C25E2BB1EC05003BCAC6 /* CatsView.swift */; };
-		F908C2612BB1EC15003BCAC6 /* FavoritecatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2602BB1EC15003BCAC6 /* FavoritecatsView.swift */; };
 		F908C2632BB1EC5C003BCAC6 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2622BB1EC5C003BCAC6 /* CatViewModel.swift */; };
 		F908C2652BB1EC6A003BCAC6 /* FavoriteCatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2642BB1EC6A003BCAC6 /* FavoriteCatViewModel.swift */; };
 		F908C26A2BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908C2692BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift */; };
@@ -20,6 +18,7 @@
 		F92E5EDE2C0CD26500EE81DF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F92E5EDD2C0CD26500EE81DF /* Alamofire */; };
 		F92E5EE12C0CD52600EE81DF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F92E5EE02C0CD52600EE81DF /* Kingfisher */; };
 		F92E5EE42C0CD53800EE81DF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F92E5EE32C0CD53800EE81DF /* SnapKit */; };
+		F977F5882C0F791000FD925F /* CatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977F5872C0F791000FD925F /* CatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +28,11 @@
 		F908C24B2BB1EAE6003BCAC6 /* CatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewController.swift; sourceTree = "<group>"; };
 		F908C2502BB1EAE7003BCAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F908C2552BB1EAE7003BCAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F908C25E2BB1EC05003BCAC6 /* CatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsView.swift; sourceTree = "<group>"; };
-		F908C2602BB1EC15003BCAC6 /* FavoritecatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritecatsView.swift; sourceTree = "<group>"; };
 		F908C2622BB1EC5C003BCAC6 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
 		F908C2642BB1EC6A003BCAC6 /* FavoriteCatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCatViewModel.swift; sourceTree = "<group>"; };
 		F908C2692BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCatsViewController.swift; sourceTree = "<group>"; };
 		F908C26B2BB1ED20003BCAC6 /* CatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatService.swift; sourceTree = "<group>"; };
+		F977F5872C0F791000FD925F /* CatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +100,7 @@
 		F908C25D2BB1EB70003BCAC6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F908C25E2BB1EC05003BCAC6 /* CatsView.swift */,
-				F908C2602BB1EC15003BCAC6 /* FavoritecatsView.swift */,
+				F977F5872C0F791000FD925F /* CatCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -197,11 +194,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F908C26C2BB1ED20003BCAC6 /* CatService.swift in Sources */,
-				F908C25F2BB1EC05003BCAC6 /* CatsView.swift in Sources */,
-				F908C2612BB1EC15003BCAC6 /* FavoritecatsView.swift in Sources */,
 				F908C24C2BB1EAE6003BCAC6 /* CatsViewController.swift in Sources */,
 				F908C26A2BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift in Sources */,
 				F908C2482BB1EAE6003BCAC6 /* AppDelegate.swift in Sources */,
+				F977F5882C0F791000FD925F /* CatCell.swift in Sources */,
 				F908C2652BB1EC6A003BCAC6 /* FavoriteCatViewModel.swift in Sources */,
 				F908C2632BB1EC5C003BCAC6 /* CatViewModel.swift in Sources */,
 				F908C24A2BB1EAE6003BCAC6 /* SceneDelegate.swift in Sources */,

@@ -5,7 +5,6 @@ import Foundation
 struct CatViewModel: Decodable {
     let id: String
     let url: String
-    let name: String?
 }
 
 //cat.id

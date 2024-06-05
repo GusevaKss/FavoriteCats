@@ -6,21 +6,17 @@ class CatsViewController: UIViewController {
     
     var cats: [CatViewModel]?
     
-    let catsView = CatsView()
     let catsService = CatService()
     
     let tableview: UITableView = {
-        let tv = UITableView()
-        tv.translatesAutoresizingMaskIntoConstraints = false
-        return tv
+        let tableview = UITableView()
+        tableview.translatesAutoresizingMaskIntoConstraints = false
+        return tableview
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
-        
-        view.addSubview(catsView)
-        catsView.frame = view.bounds
         
         catsService.obtainCats { catsResponse in
             if let cats = catsResponse {
@@ -31,17 +27,13 @@ class CatsViewController: UIViewController {
         }
     }
     
-//    required init?(coder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
-    
     func setupViews() {
         view.addSubview(tableview)
         
         tableview.dataSource = self
         tableview.delegate = self
         
-        tableview.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableview.register(CatCell.self, forCellReuseIdentifier: "catCell")
         
         NSLayoutConstraint.activate([
             tableview.topAnchor.constraint(equalTo: view.topAnchor),
@@ -58,12 +50,17 @@ extension CatsViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "catCell", for: indexPath) as? CatCell else {
+            return UITableViewCell()
+        }
+        if let cat = cats?[indexPath.row] {
+            cell.configure(with: cat.url)
+        }
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 44
+        return 200
     }
 }
 

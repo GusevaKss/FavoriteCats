@@ -7,7 +7,6 @@ class CatService{
     
     func obtainCats(completion: @escaping ([CatViewModel]?) -> Void) {
         AF.request(url).responseDecodable(of: [CatViewModel].self) { response in
-            print ("log 2")
             switch response.result {
             case .success(let cats):
                 completion(cats)
@@ -15,7 +14,5 @@ class CatService{
                 completion(nil)
             }
         }
-        
-        print ("log 1")
     }
 }
