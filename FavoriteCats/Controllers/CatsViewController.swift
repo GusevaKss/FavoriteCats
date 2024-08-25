@@ -6,7 +6,9 @@ class CatsViewController: UIViewController {
     
     var cats: [CatViewModel]?
     
-    let catsService = CatService()
+    //let catsService = CatService()
+    
+    let catsService = CatServiceAssembler().createCatService()
     
     let tableview: UITableView = {
         let tableview = UITableView()

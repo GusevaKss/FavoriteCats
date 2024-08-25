@@ -19,6 +19,8 @@
 		F92E5EE12C0CD52600EE81DF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F92E5EE02C0CD52600EE81DF /* Kingfisher */; };
 		F92E5EE42C0CD53800EE81DF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F92E5EE32C0CD53800EE81DF /* SnapKit */; };
 		F977F5882C0F791000FD925F /* CatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977F5872C0F791000FD925F /* CatCell.swift */; };
+		F9BE90C42C7BB6AC00780EBF /* CatRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE90C32C7BB6AC00780EBF /* CatRequestBuilder.swift */; };
+		F9BE90C62C7BBB6100780EBF /* CatServiceAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE90C52C7BBB6100780EBF /* CatServiceAssembler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		F908C2692BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCatsViewController.swift; sourceTree = "<group>"; };
 		F908C26B2BB1ED20003BCAC6 /* CatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatService.swift; sourceTree = "<group>"; };
 		F977F5872C0F791000FD925F /* CatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCell.swift; sourceTree = "<group>"; };
+		F9BE90C32C7BB6AC00780EBF /* CatRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRequestBuilder.swift; sourceTree = "<group>"; };
+		F9BE90C52C7BBB6100780EBF /* CatServiceAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatServiceAssembler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		F908C25B2BB1EB64003BCAC6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				F9BE90C32C7BB6AC00780EBF /* CatRequestBuilder.swift */,
+				F9BE90C52C7BBB6100780EBF /* CatServiceAssembler.swift */,
 				F908C26B2BB1ED20003BCAC6 /* CatService.swift */,
 			);
 			path = Service;
@@ -194,9 +200,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F908C26C2BB1ED20003BCAC6 /* CatService.swift in Sources */,
+				F9BE90C42C7BB6AC00780EBF /* CatRequestBuilder.swift in Sources */,
 				F908C24C2BB1EAE6003BCAC6 /* CatsViewController.swift in Sources */,
 				F908C26A2BB1ECDA003BCAC6 /* FavoriteCatsViewController.swift in Sources */,
 				F908C2482BB1EAE6003BCAC6 /* AppDelegate.swift in Sources */,
+				F9BE90C62C7BBB6100780EBF /* CatServiceAssembler.swift in Sources */,
 				F977F5882C0F791000FD925F /* CatCell.swift in Sources */,
 				F908C2652BB1EC6A003BCAC6 /* FavoriteCatViewModel.swift in Sources */,
 				F908C2632BB1EC5C003BCAC6 /* CatViewModel.swift in Sources */,
